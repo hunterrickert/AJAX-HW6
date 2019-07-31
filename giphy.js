@@ -48,7 +48,7 @@ $(document).ready(function () {
                 let animated = result[i].images.fixed_height.url;
                 let still = result[i].images.fixed_height_still.url;
 
-                let p = $("<p>").text("Rating" + rating);
+                let p = $("<p>").text("Rating: " + rating);
                 let animalGif = $("<img>");
 
                 animalGif.attr("src", still);
