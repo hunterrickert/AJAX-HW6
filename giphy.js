@@ -30,7 +30,7 @@ $(document).ready(function () {
         console.log(searchAnimal);
 
         var queryURL =
-            "http://api.giphy.com/v1/gifs/search?q=" +
+            "https://api.giphy.com/v1/gifs/search?q=" +
             searchAnimal +
             "&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=10";
 
